@@ -1,5 +1,11 @@
 # <p align="center">HTML Advanced</p>
 
+<div align="center">
+<a href="../images/cover.jpg">
+<img src="../images/cover.jpg">
+</a>
+</div>
+
 - [Learning Objectives](#Learning_Objectives)
 - [Requirements](#Requirements)
 - [Mandatory Tasks](#Mandatory_Tasks)
@@ -24,7 +30,33 @@
 
 ## Tasks
 
+<details>
+<summary>
+
 ### Task 0. README and objectives!
+</summary>
+<p>
+In this and coming projects, you will implement from scratch a webpage from a designer file.
+
+For this first project, you will focus on the HTML structure only - no CSS, no style - just pure HTML semantic.
+
+This designer file will be available on Figma - feel free to create an account to access the final result here:
+
+* Page in Figma
+* fig file
+
+<img src="../images/0.png" width="250px">
+
+Important notes with Figma:
+
+* if your computer doesn’t have missing fonts, you can find them here: `source-sans-pro` and `Spin-Cycle-OT`
+* some values are in float - feel free to round them
+
+For this task, please write an amazing `README.md`
+
+And “Duplicate to your Drafts” to have access to all design details.
+</p>
+</details>
 
 ### Task 1. Header
 

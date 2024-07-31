@@ -56,6 +56,10 @@ Take a screenshot of the website using the device toolbar Choose iPhone X and sh
 Go to https://dev-tools.hbtn.info/
 
 Change the background-color of the body to use #`4233bd` Take a screenshot of the `PORTFOLIO` section.
+
+<div style="text-align: center">
+<img src="./1-change_bg_color.png" width="350px">
+</div>
 </details>
 
 <details open><summary>
@@ -67,6 +71,10 @@ Change the background-color of the body to use #`4233bd` Take a screenshot of th
 Go to https://dev-tools.hbtn.info/
 
 Force the hover state of the “cake” block in the section Portfolio Take a screenshot of it
+
+<div style="text-align: center">
+<img src="./2-pathways_menu.png" width="350px">
+</div>
 </details>
 
 <details open><summary>

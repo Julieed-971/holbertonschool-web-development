@@ -1,10 +1,10 @@
 # <p align="center">HTML Advanced</p>
 
-<!-- <div align="center">
+<div align="center">
 <a href="../images/cover.jpg">
-<img src="../images/cover.jpg" width="350px">
+<img src="../images/cover.jpg" width="300px">
 </a>
-</div> -->
+</div>
 
 - [Learning Objectives](#Learning_Objectives)
 - [Requirements](#Requirements)
@@ -30,7 +30,7 @@
 
 ## Tasks
 
-<details>
+<details open>
 <summary>
 
 ### Task 0. README and objectives!
@@ -58,7 +58,7 @@ And “Duplicate to your Drafts” to have access to all design details.
 </p>
 </details>
 
-<details><summary>
+<details open><summary>
 
 ### Task 1. Header
 </summary>
@@ -77,7 +77,7 @@ Here is the wireframe of it:
 	* Add a block of 3 link elements
 </details>
 
-<details><summary>
+<details open><summary>
 
 ### Task 2. Banner
 
@@ -105,7 +105,7 @@ In this `section` element, add:
 Under the `header` add a `main` element
 </details>
 
-<details><summary>
+<details open><summary>
 
 ### Task 3. Quote
 </summary>
@@ -125,7 +125,7 @@ The quote section is inside the main:
 		* Another text
 </details>
 
-<details><summary>
+<details open><summary>
 
 ### Task 4. Videos
 </summary>
@@ -150,7 +150,7 @@ New section containing:
 		* A text
 </details>
 
-<details><summary>
+<details open><summary>
 
 ### Task 5. Membership
 </summary>
@@ -169,7 +169,7 @@ After the videos list section, add a new section containing:
 * A button
 </details>
 
-<details><summary>
+<details open><summary>
 
 ### Task 6. FAQ
 </summary>
@@ -190,7 +190,7 @@ Add a section for the FAQ containing:
 Hint: There is no “row block” tag, “row” is referring to the styling that will be applied in a future project. It just means two “rows” containing two “items” each, also containing their own elements.
 </details>
 
-<details><summary>
+<details open><summary>
 
 ### Task 7. Footer
 </summary>

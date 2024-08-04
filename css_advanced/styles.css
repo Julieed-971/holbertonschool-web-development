@@ -84,30 +84,27 @@ p, h1, h2, h3 {
 .schooled {
 	/* outline: 2px solid lime; */
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
 	flex-direction: column;
-	/* background-color: chocolate; */
 	box-sizing: border-box;
 	height: 300px;
-	margin-top: 100px;
+	margin: 115px 0 0 0;
 
 }
 .schooled h1 {
-	display: flex;
-	justify-content: center;
 	/* outline: 2px solid lime; */
 	/* background-color: green; */
-	width: 684px;
+	width: 700px;
 	height: 151px;
-	margin-bottom: 0px;
 	font-family: 'Source Sans Pro';
 	font-size: 120px;
 	font-weight: 700;
 	line-height: 150px;
 	text-align: center;
 	color: #FFFFFF;
+	margin: 40px 0 0 0;
 }
 
 .schooled p {
@@ -117,17 +114,15 @@ p, h1, h2, h3 {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	word-spacing: 60px;
-	/* align-items: center; */
 	width: 300px;
-	/* height: 20px; */
-	margin-top: 0px;
+	margin: 0 0 40px 0;
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 20px;
 	text-align: center;
 }
 
-.schooled button {
+button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -419,4 +414,197 @@ p, h1, h2, h3 {
 	text-align: left;
 	color: #C271FF;
 	margin-left: 15px;
+}
+
+.membership {
+	height: 502px;
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #071629;
+}
+
+.membership h1 {
+	width: 250px;
+	height: 40px;
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 40px;
+	text-align: center;
+	margin: 30px 0 0 0;
+}
+
+.membership h1 span {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 40px;
+	text-align: center;
+	color: #C271FF;
+}
+
+.membership .smiles {
+	/* outline: 3px solid red; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 1140px;
+}
+
+.membership .smiles div {
+	/* outline: 3px solid greenyellow; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 257px;
+	height: 153px;
+}
+
+.membership img {
+	width: 43px;
+	height: 35px;
+}
+
+.membership h2 {
+	width: 256px;
+	height: 26px;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 26px;
+	text-align: center;
+}
+
+.membership p {
+	width: 212px;
+	height: 52px;
+	opacity: 0px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+}
+
+.membership button {
+	margin: 0 0 30px 0;
+}
+
+.faq {
+	margin: 60px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	/* outline: 3px solid slateblue; */
+	height: 707px;
+}
+
+.faq h1 {
+	width: 136px;
+	height: 75px;
+	font-size: 60px;
+	font-weight: 300;
+	line-height: 75px;
+	text-align: center;
+	color: #071629;
+}
+
+.faq .questions {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/* outline: 3px solid orchid; */
+	width: 920px;
+	height: 707px;
+	margin: 50px 0;
+}
+
+.faq .questions .row  {
+	/* outline: 3px solid green; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.faq .questions .column  {
+	width: 350px;
+	height: 242px;
+	/* outline: 3px solid red; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.faq .questions .column h2 {
+	width: 145px;
+	height: 20px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px;
+	text-align: left;
+	color: #071629;
+}
+
+.faq .questions .column p {
+	width: 350px;
+	height: 192px;
+	opacity: 0px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	color: #07162980;
+}
+
+.footer {
+	height: 249px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #071629;
+}
+
+.footer .logos {
+	width: 1140px;
+	/* outline: 3px solid green; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 60px 0 0 0;
+}
+
+.footer .logos .social {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 130px;
+	height: 30px;
+	/* outline: 3px solid blue; */
+}
+
+.footer .logos img {
+	width: 169px;
+	height: 30px;
+	padding: 0.02px 0px 0.52px 0.59px;
+}
+
+.footer .logos .social img {
+	width: 30px;
+	height: 30px;
+}
+
+.footer p {
+	width: 96px;
+	height: 15px;
+	opacity: 35%;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 15px;
+	text-align: left;
+	margin: 0 0 20px 0;
 }

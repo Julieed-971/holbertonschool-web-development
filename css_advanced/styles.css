@@ -37,6 +37,10 @@ header {
 
 }
 
+p {
+	font-family: 'Source Sans Pro';
+	color: #FFFFFF;
+}
 .menu {
 	/* background-color: red; */
 	display: flex;
@@ -57,12 +61,10 @@ header {
 	left: 200px;
 	gap: 0px;
 	opacity: 0px;
-	font-family: 'Source Sans Pro';
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 15px;
 	text-align: left;
-	color: #FFFFFF;
 }
 
 .smile img {
@@ -132,12 +134,10 @@ header {
 	gap: 0px;
 	opacity: 0px;
 	margin-top: 0px;
-	font-family: 'Source Sans Pro';
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 20px;
 	text-align: center;
-	color: #FFFFFF;
 }
 
 .schooled button {
@@ -147,8 +147,7 @@ header {
 	background-color: #C271FF;
 	width: 162px;
 	height: 44px;
-	/* top: 419px;
-	left: 639px; */
+	border: none;
 	gap: 0px;
 	opacity: 0px;
 	box-shadow: 0px 2px 20px 0px #00000080;
@@ -239,13 +238,11 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	font-family: 'Source Sans Pro';
 	font-size: 16px;
 	font-style: italic;
 	font-weight: 400;
 	line-height: 24px;
 	text-align: center;
-	color: #FFFFFF;
 }
 
 
@@ -290,12 +287,10 @@ header {
 	height: 34px;
 	gap: 0px;
 	opacity: 0px;
-	font-family: 'Source Sans Pro';
 	font-size: 22px;
 	font-weight: 700;
 	line-height: 33px;
 	text-align: left;
-	color: #FFFFFF;
 	margin-top: 25px;
 }
 
@@ -312,4 +307,54 @@ header {
 	line-height: 33.6px;
 	text-align: left;
 	color: #FFFFFF;
+}
+
+.tutorials {
+	outline: 2px solid red;
+	height: 450px;
+	gap: 0px;
+	opacity: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.videos {
+	outline: 2px solid blue;
+	height: 450px;
+	gap: 0px;
+	opacity: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.tutorial {
+	outline: 2px solid green;
+	width: 255px;
+	height: 335px;
+	gap: 0px;
+	opacity: 0px;
+}
+
+.preview {
+	width: 255px;
+	height: 154px;
+	gap: 0px;
+	opacity: 0px;
+}
+
+.play {
+	width: 64px;
+	height: 64px;
+	/* top: 45px; */
+	/* left: 96px; */
+	gap: 0px;
+	opacity: 0px;
+	/* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    transform: translate(90px, -110px);
 }

@@ -154,5 +154,19 @@ Yes, you made it!
 You just finish to implement your first web page from a designer file, Congrats!
 
 It’s time to deploy it in Github, by using Github Pages
+
+<a href="https://julieed-971.github.io/holbertonschool-web-development/css_advanced/">
+<button style="background-color: #C271FF;
+               border: none;
+               color: white;
+               padding: 15px 32px;
+               text-align: center;
+               text-decoration: none;
+               display: inline-block;
+               font-size: 16px;
+               margin: 4px 2px;
+               cursor: pointer;
+               border-radius: 14px;">See the result page</button>
+</a>
 </details>
 

@@ -32,15 +32,14 @@ header {
 	margin: 35px 171px 0 171px;
 	height: 32px;
 	padding: 0px;
-	gap: 0px;
-	opacity: 0px;
 
 }
 
-p {
+p, h1, h2, h3 {
 	font-family: 'Source Sans Pro';
 	color: #FFFFFF;
 }
+
 .menu {
 	/* background-color: red; */
 	display: flex;
@@ -50,8 +49,6 @@ p {
 	height: 15px;
 	top: 37px;
 	left: 1041px;
-	gap: 0px;
-	opacity: 0px;
 }
 
 .menu p {
@@ -59,8 +56,6 @@ p {
 	width: 34px;
 	height: 15px;
 	left: 200px;
-	gap: 0px;
-	opacity: 0px;
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 15px;
@@ -73,14 +68,10 @@ p {
 	height: 29px;
 	top: 35px;
 	left: 171px;
-	gap: 0px;
-	opacity: 0px;
 }
 
 .register {
 	height: 957px;
-	gap: 0px;
-	opacity: 0px;
 	/* outline: 2px solid lime; */
 	/* background-color: aqua; */
 	display: flex;
@@ -111,8 +102,6 @@ p {
 	width: 684px;
 	height: 151px;
 	margin-bottom: 0px;
-	gap: 0px;
-	opacity: 0px;
 	font-family: 'Source Sans Pro';
 	font-size: 120px;
 	font-weight: 700;
@@ -131,8 +120,6 @@ p {
 	/* align-items: center; */
 	width: 300px;
 	/* height: 20px; */
-	gap: 0px;
-	opacity: 0px;
 	margin-top: 0px;
 	font-size: 16px;
 	font-weight: 700;
@@ -148,8 +135,6 @@ p {
 	width: 162px;
 	height: 44px;
 	border: none;
-	gap: 0px;
-	opacity: 0px;
 	box-shadow: 0px 2px 20px 0px #00000080;
 	font-family: 'Source Sans Pro';
 	font-size: 14px;
@@ -164,8 +149,6 @@ p {
 	/* outline: 2px solid rgb(255, 0, 0); */
 	width: 1009px;
 	height: 350px;
-	gap: 0px;
-	opacity: 0px;
 	/* background-color: crimson; */
 	display: flex;
 	justify-content: center;
@@ -181,8 +164,6 @@ p {
 	color: #FFFFFF;
 	width: 300px;
 	height: 40px;
-	gap: 0px;
-	opacity: 0px;
 	font-family: 'Source Sans Pro';
 	font-size: 32px;
 	font-weight: 300;
@@ -199,8 +180,6 @@ p {
 	margin-top: 70px;
 	width: 1009px;
 	height: 237px;
-	gap: 0px;
-	opacity: 0px;
 	/* outline: 2px solid greenyellow; */
 	/* background-color: aqua; */
 	display: flex;
@@ -221,8 +200,6 @@ p {
 	text-align: center;
 	width: 150px;
 	height: 27px;
-	gap: 0px;
-	opacity: 0px;
 	display: flex;
 	justify-content: center;
 	color: #FFFFFF;
@@ -233,8 +210,6 @@ p {
 	width: 150px;
 	height: 48px;
 	top: 189px;
-	gap: 0px;
-	opacity: 0px;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
@@ -251,7 +226,6 @@ p {
 	height: 392px;
 	top: 1093px;
 	gap: 50px;
-	opacity: 0px;
 	background-color: #C271FF;
 	display: flex;
 	flex-wrap: wrap;
@@ -264,16 +238,12 @@ p {
 .testimonial img {
 	width: 160px;
 	height: 160px;
-	gap: 0px;
-	opacity: 0px;
 }
 
 .testimonial blockquote {
 	/* outline: 2px solid blue; */
 	width: 730px;
 	height: 68px;
-	gap: 0px;
-	opacity: 0px;
 	font-family: 'Source Sans Pro';
 	font-size: 22px;
 	font-weight: 400;
@@ -285,8 +255,6 @@ p {
 .testimonial p {
 	width: 129px;
 	height: 34px;
-	gap: 0px;
-	opacity: 0px;
 	font-size: 22px;
 	font-weight: 700;
 	line-height: 33px;
@@ -298,33 +266,27 @@ p {
 	width: 165px;
 	height: 34px;
 	top: 124px;
-	gap: 0px;
-	opacity: 0px;
 	font-family: 'Source Sans Pro';
 	font-size: 22px;
 	font-style: italic;
 	font-weight: 400;
-	line-height: 33.6px;
+	line-height: 33px;
 	text-align: left;
 	color: #FFFFFF;
 }
 
 .tutorials {
-	outline: 2px solid red;
+	/* outline: 2px solid red; */
 	height: 450px;
-	gap: 0px;
-	opacity: 0px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 }
 
 .videos {
-	outline: 2px solid blue;
+	/* outline: 2px solid blue; */
+	width: 1228px;
 	height: 450px;
-	gap: 0px;
-	opacity: 0px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -332,29 +294,127 @@ p {
 }
 
 .tutorial {
-	outline: 2px solid green;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/* outline: 2px solid green; */
 	width: 255px;
 	height: 335px;
-	gap: 0px;
-	opacity: 0px;
+}
+.tutorials h1 {
+	/* outline: 2px solid green; */
+	width: 350px;
+	height: 40px;
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 40px;
+	text-align: center;
+	color: #071629;
+}
+
+.tutorials h1 span {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 40px;
+	text-align: center;
+	color: #C271FF;
+}
+.tutorial h2 {
+	display: flex;
+	/* outline: 2px solid rgb(0, 162, 255); */
+	width: 106px;
+	height: 20px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px;
+	text-align: left;
+	color: #071629;
+	margin-left: 15px;
+
+}
+
+.tutorial p {
+	display: flex;
+	justify-content: space-around;
+	/* outline: 2px solid orange; */
+	width: 240px;
+	height: 48px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #07162980;
+	margin-left: 15px;
 }
 
 .preview {
+	/* outline: 2px solid lime; */
 	width: 255px;
 	height: 154px;
-	gap: 0px;
-	opacity: 0px;
+	margin-bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
 }
 
 .play {
+	/* outline: 2px solid yellow; */
 	width: 64px;
 	height: 64px;
-	/* top: 45px; */
-	/* left: 96px; */
-	gap: 0px;
-	opacity: 0px;
-	/* position: absolute; */
-    /* top: 50%;
-    left: 50%; */
-    transform: translate(90px, -110px);
+	position: absolute;
+    margin-top: 50px;
+    margin-left: 100px;
+	z-index: 1;
+    /* transform: translate(90px, -110px); */
+}
+
+.tutorial .rating {
+	/* outline: 2px solid yellowgreen; */
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	height: 15px;
+	margin-left: 15px;
+}
+
+.tutorial .rating img {
+	/* outline: 2px solid yellowgreen; */
+	margin-right: 15px;
+	width: 15px;
+	height: 15px;
+}
+
+.tutorial .rating p {
+	/* outline: 2px solid yellowgreen; */
+	width: 35px;
+	height: 15px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height:15px;
+	text-align: right;
+	color: #C271FF;
+	margin-left: auto;
+	margin-right: 15px;
+}
+
+.tutorial .author {
+	display: flex;
+	justify-content: space-around;
+	margin-left: 15px;
+}
+
+.tutorial .author img {
+	width: 30px;
+	height: 30px;
+}
+
+.tutorial .author h3 {
+	width: 200px;
+	height: 27px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 27px;
+	text-align: left;
+	color: #C271FF;
+	margin-left: 15px;
 }

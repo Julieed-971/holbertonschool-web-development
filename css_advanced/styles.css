@@ -18,10 +18,11 @@ html, body {
 	box-sizing: border-box;
 }
 
-body {
+main {
 	background-image: url("./images/assets/background.png");
 	background-size: cover;
 	background-repeat: no-repeat;
+
 }
 
 header {
